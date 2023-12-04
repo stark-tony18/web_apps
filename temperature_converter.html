@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <form action="convert.jsp" method="post">
+        <label for="temperature">Enter temperature value:</label>
+        <input type="number" step="any" name="temperature" required>
+
+        <label for="unit">Select temperature unit:</label>
+        <select name="unit" required>
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+        </select>
+
+        <button type="submit">Convert</button>
+    </form>
+</body>
+</html>
